@@ -9,7 +9,22 @@ body{
 }
 
 h1{
-	font-family: 'Poiret One', cursive;
-	font-size: 3em;
 	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 3.5em;
+	text-align: center;
+	text-shadow: black .07em .07em .1em;
+}
+
+header{
+	background: url("../images/bg.jpg") no-repeat;
+	background-size: cover;
+	filter: blur(1px);
+	padding: 2em 5em 3em 5em;
+}
+
+.description{
+	background: rgba(20,20,20,0.6);
+	padding: 1em 2em;
+	border-radius: .5em;
 }
