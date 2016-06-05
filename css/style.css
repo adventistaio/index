@@ -73,16 +73,20 @@ section{
 }
 
 .btn-cta{
-	background: #18F;
-	border: solid .15em #13B;
+	background: #09C;
+	border: none;
 	border-radius: .2em;
 	box-shadow: .05em .05em .5em black;
 	color: white;
-	font-size: 1.3em;	
+	cursor: pointer;
+	font-size: 1.2em;	
 	font-weight: bold;
-	height: 2.5em;
 	margin-top: 1.5em;
-	padding: 0em 2em;
+	padding: .7em 2.2em;
+}
+
+.btn-cta:hover{
+		animation: attention 3s linear;
 }
 
 .container-btn-cta{
@@ -117,4 +121,22 @@ section{
 
 .verse blockquote p, .verse blockquote cite{
 	text-shadow: .1em .1em .1em black;
+}
+
+@keyframes attention{
+	10%{
+		transform: scale(.90);
+	}
+	15%{
+		transform: scale(1.05)
+	}
+	20%{
+		transform: scale(0.95)
+	}
+	25%{
+		transform: scale(1.03)
+	}
+	30%{
+		transform: scale(1);
+	}
 }
